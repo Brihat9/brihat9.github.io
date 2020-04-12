@@ -1,0 +1,60 @@
+#datetime{
+  color: maroon;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 85vh;
+}
+
+@font-face {
+   font-family: my_custom_font;
+   src: url(../fonts/SansationLight.woff);
+}
+
+.title_name {
+  font-family: my_custom_font;
+  font-weight: 900;
+  font-size: 48px;
+  color: green;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.title_email {
+  font-family: my_custom_font;
+  font-weight: 900;
+  font-size: 26px;
+  color: turquoise;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.contact {
+  font-family: my_custom_font;
+  font-weight: 900;
+  font-size: 20px;
+  color: darkblue;
+}
+
+.footer {
+  position: fixed;
+  bottom: 15px;
+  width: 100%;
+}
+
+.footer a {
+  font-family: my_custom_font;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: beige;
+}
+
+.footer a:hover {
+  color: silver;
+}

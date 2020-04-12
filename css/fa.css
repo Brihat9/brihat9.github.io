@@ -1,0 +1,46 @@
+.social-media .fa {
+  text-decoration: none;
+  color: gray;
+  width: 70px;
+  height: 70px;
+  line-height:70px;
+}
+
+.social-media .fa:hover {
+  transition: all .3s ease;
+  transform: translateY(-5px);
+}
+
+.social-media .fa.fa-twitter:hover {
+  color:#55acee;
+}
+
+.social-media .fa.fa-facebook:hover {
+  color:#3b5998;
+}
+
+.social-media .fa.fa-linkedin:hover {
+  color:#0083be;
+}
+
+.social-media .fa.fa-github:hover {
+  color:#000000;
+}
+
+.chatter {
+  height: 40px;
+  filter: grayscale(100%);
+}
+
+.chatter:hover {
+  transition: all .3s ease;
+  transform: translateY(-5px);
+  filter: grayscale(0%);
+}
+
+.fa.fa-phone, .fa.fa-home {
+  font-size: 22px;
+  color: maroon;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Brihat</title>
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/fa.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <center>
+      <pre id="datetime"></pre>
+      <h1 class="title_name">Brihat Ratna Bajracharya</h1>
+
+      <br />
+
+      <div class="social-media">
+        <a href="https://twitter.com/Brihat9" class="fa fa-twitter fa-3x"></a>
+        <a href="https://www.facebook.com/brihat9" class="fa fa-facebook fa-3x"></a>
+        <a href="https://github.com/brihat9" class="fa fa-github fa-3x"></a>
+        <a href="https://www.linkedin.com/in/brihat" class="fa fa-linkedin fa-3x"></a>&emsp;
+        <a href="https://m.me/brihat9"><img src="./img/messenger.png" class="chatter" /></a>&emsp;&emsp;
+        <a href="viber://add?number=9779849929662"><img src="./img/viber.png" class="chatter" /></a>
+      </div>
+
+      <pre class="title_email">brihatbajracharya@gmail.com</pre>
+
+      <b class="fa fa-phone">
+        <span class="contact"> (+977) 9849 929 662</span>
+      </b>
+
+      <br />
+      <br />
+
+      <b class="fa fa-home">
+        <span class="contact"> Bhaktapur</span>
+      </b>
+
+      <div class="footer">
+        <a href="https://brihat-rb.github.io/todoweb/todoweb.html">TodoWeb (JS)</a>&emsp;&emsp;&emsp;
+        <a href="https://brihat-rb.github.io/JSDict/JSDict.html">JSDict</a>&emsp;&emsp;&emsp;
+        <a href="https://brihat-rb.github.io/react-todo">React Todo</a>&emsp;&emsp;&emsp;
+        <a href="https://brihat-rb.github.io/morse.html">Morse Code</a>
+      </div>
+    </center>
+
+    <!-- for topmost date display -->
+    <script>
+        function showtime() {
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+            setTimeout("showtime()", 500);
+          }
+          showtime();
+    </script>
+  </body>
+</html>
