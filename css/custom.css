@@ -19,7 +19,8 @@ body {
 .title_name {
   font-family: my_custom_font;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 4vw;
+  /* font-size: 48px; */
   color: green;
   margin-top: -5px;
   margin-bottom: -5px;
