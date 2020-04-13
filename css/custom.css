@@ -25,20 +25,35 @@ body {
   margin-bottom: -5px;
 }
 
-.title_email {
+.title_email a {
   font-family: my_custom_font;
   font-weight: 900;
   font-size: 26px;
-  color: turquoise;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  color: maroon;
+  text-decoration: none;
+}
+
+.title_email a:hover {
+  color: teal;
+}
+
+.address a {
+  font-family: my_custom_font;
+  font-weight: 900;
+  font-size: 18px;
+  color: maroon;
+  text-decoration: none;
+}
+
+.address a:hover {
+  color: teal;
 }
 
 .contact {
   font-family: my_custom_font;
   font-weight: 900;
   font-size: 20px;
-  color: darkblue;
+  color: maroon;
 }
 
 .footer {
