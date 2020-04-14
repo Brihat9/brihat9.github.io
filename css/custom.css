@@ -66,8 +66,15 @@ body {
   font-size: 18px;
   text-decoration: none;
   color: beige;
+  margin: 20px;
+  padding: 10px 20px 10px 20px;
+  white-space: nowrap;
 }
 
 .footer a:hover {
   color: silver;
+}
+
+.nobreak {
+  white-space: nowrap;
 }

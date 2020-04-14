@@ -30,6 +30,7 @@
 .chatter {
   height: 40px;
   filter: grayscale(100%);
+  white-space: nowrap;
 }
 
 .chatter:hover {
@@ -41,8 +42,9 @@
 .fa.fa-home {
   font-size: 20px;
   color: teal;
-  margin-top: -5px;
+  margin-top: -15px;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .fa.fa-phone, .fa.fa-paper-plane {
@@ -50,4 +52,5 @@
   color: teal;
   margin-top: -15px;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
