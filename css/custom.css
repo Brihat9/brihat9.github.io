@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 #datetime{
   color: maroon;
   font-weight: bold;
@@ -24,6 +28,7 @@ body {
   color: green;
   margin-top: -5px;
   margin-bottom: -5px;
+  letter-spacing: 1px;
 }
 
 .title_email a {
@@ -31,10 +36,12 @@ body {
   font-weight: 900;
   color: maroon;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .title_email a:hover {
   color: teal;
+  letter-spacing: 1.5px;
 }
 
 .address a {
@@ -43,16 +50,19 @@ body {
   font-size: 18px;
   color: maroon;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .address a:hover {
   color: teal;
+  letter-spacing: 1.5px;
 }
 
 .contact {
   font-family: my_custom_font;
   font-weight: 900;
   color: maroon;
+  letter-spacing: 1px;
 }
 
 .footer {
@@ -63,10 +73,11 @@ body {
 
 .footer a {
   font-family: my_custom_font;
-  font-weight: bold;
   font-size: 18px;
+  letter-spacing: 2px;
   text-decoration: none;
-  color: beige;
+  color: teal;
+  opacity: 0.1;
   margin: 20px;
   padding: 10px 20px 10px 20px;
   line-height: 1.5;
@@ -74,7 +85,8 @@ body {
 }
 
 .footer a:hover {
-  color: silver;
+  letter-spacing: 3px;
+  opacity: 0.5;
 }
 
 .nobreak {
