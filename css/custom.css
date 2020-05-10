@@ -77,9 +77,9 @@ body {
   letter-spacing: 2px;
   text-decoration: none;
   color: teal;
-  opacity: 0.1;
+  opacity: 0.5;
   margin: 20px;
-  padding: 10px 20px 10px 20px;
+  /* padding: 10px 20px 10px 20px; */
   line-height: 1.5;
   white-space: nowrap;
 }
@@ -91,4 +91,10 @@ body {
 
 .nobreak {
   white-space: nowrap;
+}
+
+@media only screen and (max-width: 370px) {
+  .footer a {
+    font-size: 14px;
+  }
 }
