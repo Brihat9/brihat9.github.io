@@ -27,13 +27,13 @@ body {
 
 @font-face {
    font-family: my_yatra_font;
-   src: url(../fonts/YatraOne.ttf);
+   src: url(../fonts/YatraOne.ttf) format("truetype");
    font-display: swap;
 }
 
 @font-face {
    font-family: my_bio_font;
-   src: url(../fonts/BioRhymeR.ttf);
+   src: url(../fonts/BioRhymeR.ttf) format("truetype");
    font-display: swap;
 }
 
