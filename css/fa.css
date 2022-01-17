@@ -54,3 +54,7 @@
   margin-bottom: 20px;
   white-space: nowrap;
 }
+
+.fa.fa-globe {
+  white-space: normal;
+}
