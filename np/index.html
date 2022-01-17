@@ -22,13 +22,13 @@
     <meta name="twitter:image" content="https://brihat9.github.io/img/brihat.png" />
     <meta name="twitter:image:alt" content="brihat logo" />
 
-    <title>About | Brihat Ratna Bajracharya</title>
+    <title>बृहत रत्न बज्राचार्य</title>
 
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
-      "name":"Brihat",
+      "name":"बृहत",
       "url": "https://brihat9.github.io/",
       "sameAs": [
         "https://twitter.com/Brihat9",
@@ -37,11 +37,11 @@
       ],
       "author": {
         "@type" : "Person",
-        "name" : "Brihat",
+        "name" : "बृहत",
         "contactPoint": {
         	"@type": "ContactPoint",
         	"contactType": "personal",
-        	"telephone": "[+977-9849-929-662]",
+        	"telephone": "[+०७७-९८४९-९२९-६६२]",
        		"email": "brihatbajracharya@gmail.com"
      	  }
       }
@@ -64,9 +64,9 @@
         <animate attributeName="fill" from="transparent" to="forestgreen" dur="500ms" repeatCount="1" begin="3200ms" fill="freeze"/>
       </svg>
 
-      <pre id="datetime"></pre>
-      <h1 class="title_name">Brihat Ratna Bajracharya</h1>
-      <h3 class="title_affil">Computer Engineer</h3>
+      <pre id="datetime" style="font-family: my_yatra_font; letter-spacing: 2px;"></pre>
+      <h1 class="title_name" style="font-family: my_yatra_font; margin-top: -10px; margin-bottom: 5px">बृहत रत्न बज्राचार्य</h1>
+      <h3 class="title_affil" style="font-family: my_yatra_font; margin-top: -20px;">कम्प्यूटर ईन्जिनियर</h3>
 
       <br />
 
@@ -86,13 +86,13 @@
       <br />
 
       <b class="fa fa-home">
-        <span class="address"><a href="https://goo.gl/maps/G5CxVvHbYrgro1nr7"> Bhaktapur</a></span>
+        <span class="address"><a href="https://goo.gl/maps/G5CxVvHbYrgro1nr7"> भक्तपुर</a></span>
       </b>
 
       <br />
 
       <b class="fa fa-phone">
-        <span class="contact"> (+977) 9849 929 662</span>
+        <span class="contact" style="font-size: smaller;"> (‌‌+९७७) ९८४९ ९२९ ६६२</span>
       </b>
 
       <br />
@@ -126,12 +126,28 @@
 
     <!-- for topmost date display -->
     <script>
+        const NEPALI_DIGITS = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
+
+        function to_devanagari(text){
+            let text_list = text.split(" ");
+            let nepali_text = "";
+            for(let i = 0; i < text_list[0].length; i++)
+                if(text_list[0][i] >= 0 || text_list[0][i] <= 9)
+                  nepali_text += NEPALI_DIGITS[parseInt(text_list[0].charAt(i))];
+                else if(text_list[0][i] == 32)
+                  nepali_text += 32;
+                else
+                  nepali_text += text_list[0][i];
+            nepali_text += " " + text_list[1];
+            return nepali_text;
+        }
+
         function showtime() {
             var dt = new Date();
-            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+            document.getElementById("datetime").innerHTML = to_devanagari(dt.toLocaleTimeString());
             setTimeout("showtime()", 500);
-          }
-          showtime();
+        }
+        showtime();
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->

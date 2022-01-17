@@ -1,6 +1,6 @@
 .social-media .fa {
   text-decoration: none;
-  color: gray;
+  color: dimgray;
   width: 70px;
   height: 70px;
   line-height:70px;
@@ -47,7 +47,7 @@
   white-space: nowrap;
 }
 
-.fa.fa-phone, .fa.fa-paper-plane {
+.fa.fa-phone, .fa.fa-paper-plane, .fa.fa-globe {
   font-size: 20px;
   color: teal;
   margin-top: -15px;

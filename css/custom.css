@@ -13,6 +13,10 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 85vh;
+  background-image: url("brihat.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 200px 100px;
 }
 
 @font-face {
@@ -21,20 +25,43 @@ body {
    font-display: swap;
 }
 
+@font-face {
+   font-family: my_yatra_font;
+   src: url(../fonts/YatraOne.ttf);
+   font-display: swap;
+}
+
+@font-face {
+   font-family: my_bio_font;
+   src: url(../fonts/BioRhymeR.ttf);
+   font-display: swap;
+}
+
 .title_name {
   font-family: my_custom_font;
   font-weight: 900;
   font-size: 48px;
-  color: green;
+  color: darkgreen;
   margin-top: -5px;
   margin-bottom: -5px;
   letter-spacing: 1px;
 }
 
+.title_affil {
+  font-family: my_yatra_font;
+  font-weight: 900;
+  font-size: 18px;
+  color: darkred;
+  margin-top: -5px;
+  margin-bottom: -20px;
+  letter-spacing: 2.5px;
+}
+
 .title_email a {
-  font-family: my_custom_font;
+  font-family: my_bio_font;
   font-weight: 900;
   color: maroon;
+  font-size: 16px;
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -56,6 +83,20 @@ body {
 .address a:hover {
   color: teal;
   letter-spacing: 1.5px;
+}
+
+.website a {
+  font-family: my_bio_font;
+  font-weight: 600;
+  font-size: 16px;
+  color: maroon;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.website a:hover {
+  color: teal;
+  /* letter-spacing: 1.5px; */
 }
 
 .contact {
